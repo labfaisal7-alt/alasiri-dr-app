@@ -4,10 +4,12 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --config ./vite.config.ts",
-    "build": "tsc -p tsconfig.json && vite build --config ./vite.config.ts",
-    "lint": "tsc --noEmit -p tsconfig.json",
-    "preview": "vite preview --config ./vite.config.ts"
+    "scripts": {
+  "dev": "vite --config ./vite.config.js",
+  "build": "tsc -p tsconfig.json && vite build --config ./vite.config.js",
+  "lint": "tsc --noEmit -p tsconfig.json",
+  "preview": "vite preview --config ./vite.config.js"
+}
   },
   "dependencies": {
     "react": "^19.1.0",
